@@ -1,0 +1,17 @@
+{
+	"name": "C# (.NET)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+    "features": {
+        "ghcr.io/itsmechlark/features/redis-server:1.1.0": {
+            "version": "7"
+        }
+    },
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"muhammad-sammy.csharp"
+			]
+		}
+	}
+}
